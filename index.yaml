@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  common:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-11-10T09:52:43.411209014Z"
+    description: A Helm chart for Kubernetes
+    digest: fcb8aad63e3749bbf4b4c38d796461038d8efb325d349f65b96c3755c8518608
+    name: common
+    type: application
+    urls:
+    - common-0.1.0.tgz
+    version: 0.1.0
   powerdns-admin:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -11,4 +22,4 @@ entries:
     urls:
     - powerdns-admin-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-10T09:39:30.001939453Z"
+generated: "2024-11-10T09:52:43.411219033Z"
