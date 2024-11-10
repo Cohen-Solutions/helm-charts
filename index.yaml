@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  powerdns-admin:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-11-10T09:39:30.001933712Z"
+    description: A Helm chart for Kubernetes
+    digest: 027ebc7e567ff465b08617467eea92c950ef6e33bdd9b0fdcdd29cf80b9a1ccd
+    name: powerdns-admin
+    type: application
+    urls:
+    - powerdns-admin-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-11-10T09:39:30.001939453Z"
