@@ -67,6 +67,28 @@ entries:
     version: 0.1.0
   wyoming-piper:
   - apiVersion: v2
+    appVersion: 1.5.0
+    created: "2024-11-11T12:42:38.942834328Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Wyoming Piper
+    digest: 464af63e1bc055faa18cbdcd2314dc0372c76b6e119de511be28eb4b30bb14da
+    home: https://github.com/cohen-solutions/helm-charts/tree/main/charts/wyoming-piper
+    keywords:
+    - piper
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: clement@cohenc.fr
+      name: Clement Cohen
+    name: wyoming-piper
+    sources:
+    - https://hub.docker.com/r/rhasspy/wyoming-piper
+    urls:
+    - https://github.com/Cohen-Solutions/helm-charts/releases/download/wyoming-piper-1.0.2/wyoming-piper-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
     appVersion: 1.0.0
     created: "2024-11-11T12:28:35.897072348Z"
     dependencies:
@@ -109,4 +131,4 @@ entries:
     urls:
     - wyoming-whisper-0.1.2.tgz
     version: 0.1.2
-generated: "2024-11-11T12:28:35.897090111Z"
+generated: "2024-11-11T12:42:38.94285655Z"
