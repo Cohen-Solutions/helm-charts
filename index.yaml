@@ -3,6 +3,16 @@ entries:
   common:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-11-11T09:39:34.297311307Z"
+    description: A Helm chart for Kubernetes
+    digest: cbce5b6d24a536fb205315cb0159ba8e87385d45f570b74cbbfc1e0041518e93
+    name: common
+    type: application
+    urls:
+    - common-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-11-10T11:07:19.264758614Z"
     description: A Helm chart for Kubernetes
     digest: a79f2e6f8786ba29418f2194fe04b5d6fb50064f56abc29418a9d3a5d97ca950
@@ -43,4 +53,4 @@ entries:
     urls:
     - wyoming-whisper-0.1.2.tgz
     version: 0.1.2
-generated: "2024-11-11T08:38:57.078671553Z"
+generated: "2024-11-11T09:39:34.410911293Z"
