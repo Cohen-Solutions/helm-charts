@@ -1,0 +1,18 @@
+apiVersion: v2
+appVersion: 1.0.0
+dependencies:
+- name: common
+  repository: https://library-charts.k8s-at-home.com
+  version: 4.5.2
+description: Piper
+home: https://github.com/cohen-solutions/helm-charts/tree/main/charts/whisper
+keywords:
+- piper
+kubeVersion: '>=1.16.0-0'
+maintainers:
+- email: clement@cohenc.fr
+  name: Clement Cohen
+name: piper
+sources:
+- https://hub.docker.com/r/rhasspy/wyoming-piper
+version: 1.0.0
