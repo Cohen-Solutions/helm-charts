@@ -32,4 +32,15 @@ entries:
     urls:
     - powerdns-admin-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-10T11:07:19.26476725Z"
+  wyoming-whisper:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-11-11T08:38:57.078658378Z"
+    description: A Helm chart for Kubernetes
+    digest: 85e282d9960bc2fa873c14b0862ae6e037f569bbccab1579b53669bbdfe5829f
+    name: wyoming-whisper
+    type: application
+    urls:
+    - wyoming-whisper-0.1.2.tgz
+    version: 0.1.2
+generated: "2024-11-11T08:38:57.078671553Z"
