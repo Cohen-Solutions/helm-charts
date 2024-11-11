@@ -1,4 +1,4 @@
-# whisper
+# Piper
 
 **NOTE:** Copied from home-assistant.
 
