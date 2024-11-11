@@ -7,22 +7,23 @@
 
 image:
   # -- image repository
-  repository: rhasspy/wyoming-piper
+  repository: lscr.io/linuxserver/piper
   # -- image tag
   # @default -- chart.appVersion
-  tag:
+  tag: 
   # -- image pull policy
   pullPolicy: IfNotPresent
 
 # options: https://huggingface.co/rhasspy/piper-voices/tree/v1.0.0/en/en_US/lessac/medium
-args: 
- - '--voice fr_FR-tom-medium'
+# args: 
+#  - '--voice fr_FR-tom-medium'
  
 # -- environment variables.
 # @default -- See below
 env:
   # -- Set the container timezone
-  TZ: UTC
+  TZ: Europe/Paris
+  PIPER_VOICE: fr_FR-tom-medium
 
 # -- Configures service settings for the chart. Normally this does not need to be modified.
 # @default -- See values.yaml

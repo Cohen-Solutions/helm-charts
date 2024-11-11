@@ -1,5 +1,5 @@
 apiVersion: v2
-appVersion: 1.5.0
+appVersion: 1.4.0
 dependencies:
 - name: common
   repository: https://library-charts.k8s-at-home.com
@@ -15,4 +15,4 @@ maintainers:
 name: wyoming-piper
 sources:
 - https://hub.docker.com/r/rhasspy/wyoming-piper
-version: 1.0.2
+version: 1.0.3
