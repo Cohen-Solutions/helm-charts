@@ -31,6 +31,29 @@ entries:
     urls:
     - common-0.1.0.tgz
     version: 0.1.0
+  piper:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-11-11T12:17:56.332307586Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Piper
+    digest: bd9ae336bc1d70f440217e69b6ad6eb32797aabe9948ab2ea953f9918690926d
+    home: https://github.com/cohen-solutions/helm-charts/tree/main/charts/whisper
+    keywords:
+    - piper
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: clement@cohenc.fr
+      name: Clement Cohen
+    name: piper
+    sources:
+    - https://hub.docker.com/r/rhasspy/wyoming-piper
+    urls:
+    - https://github.com/Cohen-Solutions/helm-charts/releases/download/piper-1.0.0/piper-1.0.0.tgz
+    version: 1.0.0
   powerdns-admin:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -63,4 +86,4 @@ entries:
     urls:
     - wyoming-whisper-0.1.2.tgz
     version: 0.1.2
-generated: "2024-11-11T09:44:34.569568731Z"
+generated: "2024-11-11T12:17:56.332326792Z"
