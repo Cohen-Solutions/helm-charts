@@ -5,10 +5,15 @@
 replicaCount: 1
 
 image:
-  repository: powerdnsadmin/pda-legacy
+  repository: rhasspy/wyoming-whisper
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
+
+
+cmd_params:
+  language: "fr"
+  model: "large-v3"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -42,17 +47,6 @@ securityContext: {}
 service:
   type: ClusterIP
   port: 80
-
-
-db:
-  type: mysql
-  host: mariadb.mariadb.svc.cluster.local
-  port: 3306
-  database: powerdns
-  username: powerdns
-  password: 7wNLqDXtp](paM6!
-  # Use the following line to use a secret for the password
-  # password: {{ .Values.db.password | b64enc | quote }}
 
 ingressroute:
   enabled: false
