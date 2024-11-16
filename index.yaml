@@ -2,6 +2,22 @@ apiVersion: v1
 entries:
   common:
   - apiVersion: v2
+    created: "2024-11-16T08:10:00.503078362Z"
+    description: Function library for Cohen Solutions charts
+    digest: 6501079e03793ecc0c019ea790026df6a5c5ce6d3eb6805af80bf265c50ce2b9
+    home: https://github.com/Cohen-Solutions/helm-charts/tree/main/charts/common
+    keywords:
+    - common
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: clement@cohenc.fr
+      name: Clement COHEN
+    name: common
+    type: library
+    urls:
+    - https://github.com/Cohen-Solutions/helm-charts/releases/download/common-4.5.2/common-4.5.2.tgz
+    version: 4.5.2
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2024-11-16T07:55:44.522104817Z"
     description: A Helm chart for Kubernetes
@@ -163,4 +179,4 @@ entries:
     urls:
     - wyoming-whisper-0.1.2.tgz
     version: 0.1.2
-generated: "2024-11-16T07:55:44.522136226Z"
+generated: "2024-11-16T08:10:00.503110472Z"
