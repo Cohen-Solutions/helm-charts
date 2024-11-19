@@ -57,6 +57,39 @@ entries:
     urls:
     - common-0.1.0.tgz
     version: 0.1.0
+  mqtt2prom:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-11-19T17:54:46.225149887Z"
+    description: A Helm chart for Kubernetes
+    digest: 0a5e36546641dc182fabb82a5e0be34baa184b7ff8961b128387750eeedf8e5d
+    name: mqtt2prom
+    type: application
+    urls:
+    - https://github.com/Cohen-Solutions/helm-charts/releases/download/mqtt2prom-0.1.0/mqtt2prom-0.1.0.tgz
+    version: 0.1.0
+  nodered:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-11-19T17:54:46.368701222Z"
+    description: A Helm chart for Kubernetes
+    digest: 3adcffe2a0dafe066abb2f93a7faab37daf1fa1a2f16fe36ce700d02d6f50fd6
+    name: nodered
+    type: application
+    urls:
+    - https://github.com/Cohen-Solutions/helm-charts/releases/download/nodered-0.1.0/nodered-0.1.0.tgz
+    version: 0.1.0
+  nut-webui:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-11-19T17:54:46.499132112Z"
+    description: A Helm chart for Kubernetes
+    digest: 238923c2348faf7ce016541ec6f51886e735749c6cc008f88c534640462c61d2
+    name: nut-webui
+    type: application
+    urls:
+    - https://github.com/Cohen-Solutions/helm-charts/releases/download/nut-webui-0.1.0/nut-webui-0.1.0.tgz
+    version: 0.1.0
   piper:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -90,6 +123,17 @@ entries:
     type: application
     urls:
     - powerdns-admin-0.1.0.tgz
+    version: 0.1.0
+  prom2mqtt:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-11-19T17:54:46.616072052Z"
+    description: A Helm chart for Kubernetes
+    digest: f3af6fbd8636914dae2c3cd8ede374ea251d55c1ad31a5a2297320597152f75d
+    name: prom2mqtt
+    type: application
+    urls:
+    - https://github.com/Cohen-Solutions/helm-charts/releases/download/prom2mqtt-0.1.0/prom2mqtt-0.1.0.tgz
     version: 0.1.0
   wyoming-piper:
   - apiVersion: v2
@@ -179,4 +223,4 @@ entries:
     urls:
     - wyoming-whisper-0.1.2.tgz
     version: 0.1.2
-generated: "2024-11-16T08:10:00.503110472Z"
+generated: "2024-11-19T17:54:46.616152883Z"
