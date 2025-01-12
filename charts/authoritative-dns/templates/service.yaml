@@ -10,7 +10,7 @@ metadata:
   {{- end }}
 spec:
   type: {{ .Values.service.type }}
-  externalTrafficPolicy: Local
+  externalTrafficPolicy: Cluster
   ports:
     - port: {{ .Values.service.targetPort }}
       targetPort: {{ .Values.service.targetPort }}
@@ -31,6 +31,7 @@ metadata:
   {{- end }}
 spec:
   type: {{ .Values.service.type }}
+  externalTrafficPolicy: Cluster
   ports:
     - port: {{ .Values.service.targetPort }}
       targetPort: {{ .Values.service.targetPort }}
