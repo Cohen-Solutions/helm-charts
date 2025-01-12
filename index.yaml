@@ -3,6 +3,16 @@ entries:
   authoritative-dns:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-01-12T14:55:36.176455058Z"
+    description: A Helm chart for Kubernetes
+    digest: dd46989ecd56891e4d86e3e5e90ddc8d78e122031c6b6d352dc5721fddcca8f8
+    name: authoritative-dns
+    type: application
+    urls:
+    - https://github.com/Cohen-Solutions/helm-charts/releases/download/authoritative-dns-1.0.4/authoritative-dns-1.0.4.tgz
+    version: 1.0.4
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-01-12T14:41:43.300184906Z"
     description: A Helm chart for Kubernetes
     digest: fc398f8237ab491076659f2ee9e998a651bc658a70979ce7c7fcb1053f1d284e
@@ -284,4 +294,4 @@ entries:
     urls:
     - wyoming-whisper-0.1.2.tgz
     version: 0.1.2
-generated: "2025-01-12T14:41:43.300234617Z"
+generated: "2025-01-12T14:55:36.176502457Z"
