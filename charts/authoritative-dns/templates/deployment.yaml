@@ -53,9 +53,9 @@ spec:
           - name: bind-config
             mountPath: /etc/bind
           - name: bind-zone-config
-            mountPath: /var/lib/bind
+            mountPath: /var/lib/bind/zones
           - name: tsig-keys
-            mountPath: /etc/bind/
+            mountPath: /var/lib/bind/keys
       volumes:
         - name: bind-config
           configMap:
