@@ -54,6 +54,8 @@ spec:
             mountPath: /etc/bind
           - name: bind-zone-config
             mountPath: /var/lib/bind
+          - name: tsig-keys
+            mountPath: /etc/bind/keys.conf
       volumes:
         - name: bind-config
           configMap:
@@ -64,3 +66,6 @@ spec:
         - name: bind-zone-config
           persistentVolumeClaim:
             claimName: {{ include "authoritative-dns.fullname" . }}
+        - name: tsig-keys
+          secret:
+            secretName: tsig-keys
