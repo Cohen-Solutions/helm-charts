@@ -22,6 +22,8 @@ spec:
       hostNetwork: false
       affinity:
         {{- toYaml .Values.affinity | nindent 8 }}
+      securityContext:
+            fsGroup: 101
       containers:
         - name: {{ .Values.name }}-bind
           image: {{ .Values.image.image }}:{{ .Values.image.tag }}
