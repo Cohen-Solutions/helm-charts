@@ -4,7 +4,7 @@ kind: PersistentVolumeClaim
 metadata:
   labels:
     {{ include "authoritative-dns.labels" . | nindent 4 }}
-  name: {{ include "authoritative-dns.fullname" . }}s
+  name: {{ include "authoritative-dns.fullname" . }}
   namespace: {{ .Release.Namespace }}
 spec:
   accessModes:
