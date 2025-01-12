@@ -15,6 +15,11 @@ service:
   targetPort: 53
   labels:
 
+persistence:
+  enabled: false
+  accessMode: ReadWriteOnce
+  size: 1Gi
+  storageClass: ""
 # resources:
 #   requests:
 #     memory: 1Gi

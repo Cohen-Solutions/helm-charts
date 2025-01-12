@@ -62,6 +62,5 @@ spec:
               - key: named.conf
                 path: named.conf
         - name: bind-zone-config
-          configMap:
-            name: bind-zone-config
-{{- toYaml .Values.zoneconfigs | nindent 12 }}
+          persistentVolumeClaim:
+            claimName: {{ include "authoritative-dns.fullname" . }}
