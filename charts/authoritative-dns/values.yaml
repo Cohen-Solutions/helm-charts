@@ -2,9 +2,9 @@ replicaCount: 2
 region: ORD1
 name: authoritative-dns
 image:
-  image: internetsystemsconsortium/bind9
+  image: ubuntu/bind9
   pullPolicy: IfNotPresent
-  tag: 9.20
+  tag: "latest"
 
 imageConfig:
   pullPolicy: IfNotPresent
